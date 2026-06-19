@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control Facturación · Online Vallès</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- AUTH -->
+<div id="authWrap">
+  <div class="auth-card">
+    <div class="auth-logo">
+      <div>
+        <div class="auth-logo-text">CONTROL FACTURACIÓN ONLINEVALLES</div>
+        <div class="auth-logo-sub">Panel interno de facturación</div>
+      </div>
+    </div>
+    <div id="authContent"></div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="appWrap">
+  <div class="app">
+    <div id="root"></div>
+  </div>
+</div>
+
+<script src="js/00-api-storage.js"></script>
+<script src="js/01-core.js"></script>
+<script src="js/02-invoices-v27-v31.js"></script>
+<script src="js/03-invoices-v32-v36.js"></script>
+<script src="js/04-invoices-v37-v39.js"></script>
+<script src="js/05-init.js"></script>
+</body>
+</html>
